@@ -8,7 +8,7 @@ const Hero = () => {
       {/* Background Video/Image */}
       <div className="absolute inset-0 z-0">
         <img 
-          src="image/image3.webp" 
+          src="https://cdn.businessday.ng/2022/09/Number-3-scaled.jpg" 
           alt="Nigerian teachers in modern classroom" 
           className="w-full h-full object-cover"
         />
