@@ -1,0 +1,12 @@
+# Exported from Render on 2025-09-19T08:06:37Z
+version: "1"
+services:
+- type: web
+  name: Educatalyst
+  runtime: node
+  repo: https://github.com/Timileyin95/Educatalyst
+  plan: free
+  region: oregon
+  buildCommand: npm install; npm run build
+  startCommand: yarn start
+  autoDeployTrigger: commit
