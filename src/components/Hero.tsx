@@ -12,7 +12,7 @@ const Hero = () => {
           alt="Nigerian teachers in modern classroom" 
           className="w-full h-full object-cover"
         />
-        <div className="absolute inset-0 bg-gradient-to-r from-blue-300/90 via-blue-400/50 to-green-400/60"></div>
+        <div className="absolute inset-0 bg-gradient-to-r from-blue-300/90 via-blue-800/50 to-green-400/60"></div>
       </div>
 
       {/* Content */}
