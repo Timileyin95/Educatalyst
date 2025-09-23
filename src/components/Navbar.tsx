@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Menu, X, BookOpen, GraduationCap } from 'lucide-react';
+import logo from "../logo.png"; 
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -37,10 +38,10 @@ const Navbar = () => {
           <div className="flex items-center space-x-2">
           
            <img
-  src="Logo.png"   // <-- replace with your logo file path
+  src={logo}
   alt="Educatalyst Logo"
   className={`h-60 w-auto transition-colors duration-300 ${
-    scrolled ? 'filter brightness-75' : ''
+    scrolled ? 'filter brightness-90' : ''
   }`}
 />
 
